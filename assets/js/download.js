@@ -1,14 +1,31 @@
 $(function () {
-    var OSName="Unknown OS";
-    if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-    else if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-    else if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-    else if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
 
-    setTimeout(function(){
-        $('.js-bottom-notice').addClass('bottom0');
-    }, 350);
+    $(".js-show-other-options").click(function() {
+      $('.show-more-options').hide();
+      $('.client-only-table').show();
+    });
 
+    $(".js-download-windows").click(function() {
+      $('.download-platform-windows-options').show();
+    });
+
+    $(".js-download-linux").click(function() {
+      $('.download-platform-linux-options').show();
+    });
+
+    $(".js-download-mac").click(function() {
+      $('.download-platform-mac-options').show();
+    });
+
+    // var OSName="Unknown OS";
+    // if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+    // else if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+    // else if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+    // else if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+
+    // setTimeout(function(){
+    //     $('.js-bottom-notice').addClass('bottom0');
+    // }, 350);
     // switch(OSName){
     //     case "MacOS":
     //         $('.js-os-type').html("Mac"); 

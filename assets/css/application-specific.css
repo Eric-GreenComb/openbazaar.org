@@ -153,6 +153,7 @@ ul li a:hover {
     cursor: pointer;
     position: absolute; 
     top: 20px;
+    transition: all .25s;
 }
 
 .main-cta {
@@ -306,20 +307,81 @@ ul li a:hover {
 
 /* download page */
 .download-body {
-    background: #063753;
-    color: #fff;
+    background: #fff;
+    color: #252525;
+    font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.download-body a{
+    color: #004bff;
+}
+
+.download-body b{
+    font-weight: 700;
+}
+
+.download-body tr{
+    line-height: 30px;
+    color: #535F65;
+}
+
+.download-platform {
+    width: 230px;
+    height: 220px;
+    margin-right: 15px;
+    position: relative;
+    float: left;
+    border: solid 1px #D4D4D4;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0 0 2px 0 rgba(202,202,202,0.50);
+    transition: all .35s;
+    cursor: pointer;
+}
+
+.download-platform-options {
+    position: absolute;
+    bottom: 10px;
+    background: #fff;
+    width: 90%;
+    border: solid 1px #ccc;
+    padding: 10px 0;
+    left: 4.5%;
+    cursor: default;
+    transition: all .35s;
+}
+
+.download-platform-button {
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0 0 2px 0 rgba(202,202,202,0.50);
+    border-radius: 2px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 4.5%;
+    transition: all .35s;
+    font-weight: 700;
+}
+
+.download-platform:hover{
+    border: solid 1px #252525;
+}
+
+.download-platform:hover .download-platform-button,
+.download-platform:hover .download-platform-options {
+    border: solid 1px #252525;
 }
 
 .download-holder {
-    transform: translateY(15%); 
     text-align: center;
-    width: 420px;
-    margin: auto;
-}
-
-.icon-download {
-    width:140px; 
-    height: 140px; 
+    width: 720px;
     margin: auto;
 }
 
