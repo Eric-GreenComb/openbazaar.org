@@ -370,9 +370,9 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.download-platform:hover{
+/*.download-platform:hover{
     border: solid 1px #252525;
-}
+}*/
 
 .download-platform:hover .download-platform-button,
 .download-platform:hover .download-platform-options {
