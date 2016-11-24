@@ -373,7 +373,7 @@ ul li a:hover {
     background: #fff;
     width: 90%;
     border: solid 1px #ccc;
-    padding: 10px 0;
+    padding: 12px 0;
     left: 4.5%;
     cursor: default;
     transition: all .35s;
@@ -386,7 +386,7 @@ ul li a:hover {
     border-radius: 2px;
     width: 90%;
     margin: auto;
-    padding: 10px 0;
+    padding: 12px 0;
     position: absolute;
     bottom: 10px;
     left: 4.5%;
