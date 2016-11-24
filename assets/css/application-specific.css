@@ -374,8 +374,7 @@ ul li a:hover {
     border: solid 1px #252525;
 }*/
 
-.download-platform-button:hover,
-.download-platform-options:hover {
+.download-platform-button:hover{
     border: solid 1px #252525;
 }
 
