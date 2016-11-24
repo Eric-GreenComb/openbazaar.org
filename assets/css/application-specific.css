@@ -390,7 +390,7 @@ ul li a:hover {
     position: absolute;
     bottom: 10px;
     left: 4.5%;
-    transition: all .35s;
+    transition: all .2s;
     font-weight: 700;
     cursor: pointer;
 }
@@ -400,7 +400,7 @@ ul li a:hover {
 }*/
 
 .download-platform-button:hover{
-    border: solid 1px #252525;
+    border: solid 1px #bfbfbf;
 }
 
 .download-holder {
