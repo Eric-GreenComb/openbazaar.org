@@ -316,6 +316,15 @@ ul li a:hover {
 
 .download-body a{
     color: #004bff;
+    transition: all .15s;
+}
+
+.download-body a:hover {
+    color: #0f4575;
+}
+
+.download-body a:active {
+    color: #010819;
 }
 
 .download-body b{
@@ -400,7 +409,7 @@ ul li a:hover {
 }*/
 
 .download-platform-button:hover{
-    border: solid 1px #bfbfbf;
+    border: solid 1px #a2a2a2;
 }
 
 .download-holder {
