@@ -1,3 +1,4 @@
+
 <html>
   <head>
     <title>Download OpenBazaar</title>
@@ -9,6 +10,109 @@
   </head>
 
   <body class="download-body">
-    
+    <iframe width="1" height="1" frameborder="0" src="" class="js-file-url"></iframe>
+    <a href="index.html">
+      <div class="btn" style="left: 20px; padding: 12px 20px">Home</div>
+    </a>
+<!--     <a href="https://blog.openbazaar.org/openbazaar-user-tutorial/" target="_blank">
+      <div class="btn" style="right: 20px;color:#fff;">Tutorial</div>
+    </a> -->
+    <div class="download-holder">
+      <img src="assets/img/openbazaar-logo-new.png" style="margin-top: 50px; width: 85px" />
+      <div style="font-size: 36px; margin-top: 8px; margin-bottom: 2px; color: #252525">Download OpenBazaar v1.1.10</div>
+      <div class="divider" style="width: 50px; margin: auto; background: #D4D4D4; height: 2px; margin-top: 15px; margin-bottom: 25px;"></div>
+      <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases" class="js-release-notes" target="_blank" style="font-size: 15px">v1.1.10 Release Notes</a>
+
+      <div>
+        <div style="clear: both; position: relative; margin-bottom: 10px"></div>
+
+        <!-- MAC -->
+        <div class="download-platform">
+          <img src="assets/img/icon-apple.png" style="width: 50px; margin-top: 37px" />
+          <p style="margin-top: 16px">OpenBazaar for Mac</p>
+          <div class="download-platform-button js-download-mac">Download</div>
+          <div class="download-platform-options download-platform-mac-options visibility-hidden"> 
+            <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/OpenBazaar-1.1.10.dmg">64-bit</a> &nbsp; 
+          </div>
+        </div>
+
+        <!-- WINDOWS -->
+        <div class="download-platform">
+          <img src="assets/img/icon-windows.png" style="width: 52px; margin-top: 44px" />
+          <p style="margin-top: 16px">OpenBazaar for Windows</p>
+          <div class="download-platform-button js-download-windows">Download</div>
+          <div class="download-platform-options download-platform-windows-options visibility-hidden">
+            <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/OpenBazaar-1.1.10_Setup_i386.exe">32-bit</a> | 
+            <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/OpenBazaar-1.1.10_Setup_x64.exe">64-bit</a> 
+          </div>
+        </div>
+
+        <!-- LINUX -->
+        <div class="download-platform" style="margin-right: 0">
+          <img src="assets/img/icon-linux.png" style="width: 44px; margin-top: 43px" />
+          <p style="margin-top: 14px">OpenBazaar for Linux</p>
+          <div class="download-platform-button js-download-linux">Download</div>
+          <div class="download-platform-options download-platform-linux-options visibility-hidden">
+            <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/openbazaar_1.1.10_i386.deb">32-bit</a> | 
+            <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/openbazaar_1.1.10_amd64.deb">64-bit</a> 
+          </div>
+        </div>
+
+        <div style="clear: both; position: relative; margin-bottom: 30px"></div>
+        <div style="width: 100%; margin: 20px auto 70px auto; border-top: solid 1px #D4D4D4;" class="show-more-options">
+          <div style="margin-top: 30px;"><a href="#" class="js-show-other-options" style="text-align: center;">Show More Download Options*</a></div>
+          <p style="font-size: 12px; width: 550px; margin: 10px auto; line-height: 15px">*Note: these versions are intended for those who are running an OpenBazaar node/server on a remote server not located on their current machine</p>
+        </div>
+
+        <!-- MORE OPTIONS (CLIENT-ONLY) -->
+        <table style="width: 100%; margin: 20px auto 70px auto; border-top: solid 1px #D4D4D4;" class="client-only-table visibility-hidden">
+          <tr>
+            <td style="padding-top: 20px;"><b>Client-Only (server not included)*</b></td>
+            <td><b>Version</b></td>
+            <td><b>Download</b></td>
+          </tr>
+          <tr>
+            <td><img src="assets/img/icon-apple.png" style="width: 10px" /> OpenBazaar Client: Mac</td>
+            <td>v1.1.10</td>
+            <td><a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/OpenBazaarClient-1.1.10.dmg">64-bit</a></td>
+          </tr>
+          <tr>
+            <td><img src="assets/img/icon-windows.png" style="width: 10px" /> OpenBazaar Client: Windows</td>
+            <td>v1.1.10</td>
+            <td>
+              <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/OpenBazaarClient-1.1.10_Setup_i386.exe">32-bit</a> | 
+              <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/OpenBazaarClient-1.1.10_Setup_x64.exe">64-bit</a> 
+            </td>
+          </tr>
+          <tr>
+            <td><img src="assets/img/icon-linux.png" style="width: 10px" /> OpenBazaar Client: Linux</td>
+            <td>v1.1.10</td>
+            <td>
+              <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/openbazaarclient_1.1.10_i386.deb">32-bit</a> | 
+              <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.1.10/openbazaarclient_1.1.10_amd64.deb" class="js-download-linux">64-bit</a>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p style="font-size: 12px; width: 600px; margin: 20px 0; margin-right: auto; line-height: 15px; text-align: left;">*Note: these versions are intended for those who are running an OpenBazaar node/server on a remote server not located on their current machine</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- js stuff -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/download.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-75536111-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
